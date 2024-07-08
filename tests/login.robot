@@ -9,7 +9,7 @@ Test Teardown       Finish Browser
 *** Test Cases ***
 Senha incorreta
     Submit credentials         qa    123456
-    Toast have text    Oops! Credenciais inválidas :(
+    Toast have text    Oops! Credenciais incorretas :(
 
 Usuário não cadastrado
     Submit credentials         teste123    123456
